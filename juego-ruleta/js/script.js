@@ -57,8 +57,8 @@ function girar(){
     let rand = Math.random() * 7200;
     calcular(rand);
     giros++;
-    var sonido = document.querySelector('#audio');
-    sonido.setAttribute('src', 'sonido/ruleta.mp3');
+    // var sonido = document.querySelector('#audio');
+    // sonido.setAttribute('src', 'sonido/ruleta.mp3');
     document.querySelector('.contador').innerHTML = 'TURNOS: ' + giros; 
   }else{
     alertaTerminoTurnos();
